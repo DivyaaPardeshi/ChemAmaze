@@ -1,0 +1,148 @@
+.game-container{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.game-left{
+    height: 100vh;
+    width: 50vw;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.game-right{
+    height: 100vh;
+    width: 50vw;
+    /* background-color: palevioletred; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-topic{
+    height: 10vh;
+    width: 50vw;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.game-topic h1{
+    font-family: "Koulen", sans-serif; 
+    font-weight: 400;
+    font-size: 50px;
+    color: #00D1FF;
+}
+.game-description{
+    height: 15vh;
+    width: 50vw;
+    /* background-color: beige; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+
+}
+
+.game-description h4{
+    font-size: 16px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+}
+
+.gapdiv1{
+    /* background-color: red; */
+    width: 25vw;
+}
+
+.extra{
+    display: flex;
+}
+
+.gapdiv2{
+    width: 15vw;
+}
+
+.box {
+    height: 25vh;
+    width: 50vw;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 97px;
+}
+
+.bulletgrade, .bulletchapter, .bullettype{
+    font-size: 20px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+}
+
+.box div {
+    border-bottom: 4px solid #ccc; 
+    padding-bottom: 2px; 
+    margin-bottom: 12px;
+}
+
+.play-button
+{
+    height: 7vh;
+    width: 7.5vw;
+    background-color: #FD7385;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+    box-shadow: 4px 4px 0px black;
+    cursor: pointer;
+    font-family: "Koulen", sans-serif;
+    margin:10px;
+    color: white;
+    
+}
+
+.forbutton{
+    height: 12vh;
+    width: 60vw;
+    display:flex;
+    /* background-color: greenyellow; */
+    align-items: center;
+    justify-content:center;
+    /* padding: 30px; */
+}
+
+.forimage{
+    height: 50vh;
+    width: 30vw;
+    /* background-color: red;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:3px black;
+    border-radius: 20px;
+    box-shadow: 4px 4px 0px black;
+
+}
+
+.forimage img{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3vh;
+}
+
+

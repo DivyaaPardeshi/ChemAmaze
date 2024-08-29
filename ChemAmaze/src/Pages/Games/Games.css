@@ -1,0 +1,198 @@
+.gamesContainer {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    /* background-color: rgb(0, 151, 0); */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-nav {
+    height: 27vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* background: #000; */
+}
+
+.search-div {
+    height: 15vh;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBox {
+    height: 6vh;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FD7385;
+    border-radius: 50px;
+    box-shadow: 4px 4px 2px;
+    border: none;
+    gap: 0.2vw;
+    position: relative;
+}
+
+.search-div input {
+    height: 6vh;
+    width: 45vw;
+    padding: 15px;
+    display: flex;
+    background-color: #FD7385;
+    border: none;
+    outline: none;
+    color: white;
+    padding-right: 40px;
+}
+
+.search-div input::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    appearance: none;
+    display: none;
+}
+
+.search-div input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Poppins", sans-serif;
+}
+
+.search-div input:focus {
+    border: none;
+    outline: none;
+}
+
+.clear-btn {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    display: none;
+}
+
+.search-div input:not(:placeholder-shown) + .clear-btn {
+    display: block;
+}
+
+.sort {
+    height: 15vh;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    height: 70vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 2vw;
+    overflow-y: scroll; 
+   
+}
+
+/* .listScroll{
+    height: 250vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 2vw;
+} */
+
+.col1{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    
+}
+
+
+.sort .sorting {
+    height: 5.5vh;
+    width: 7.5vw;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FD7385;
+    border-radius: 50px;
+    box-shadow: 4px 4px 0px black;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    padding: 0 1vw;
+}
+
+.sort .sorting:focus {
+    outline: none;
+}
+
+.gradeDiv{
+    height: 5.5vh;
+    width: 9vw;
+    border: none;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00D1FF;
+    font-size: 15px; 
+    border-radius: 5px;
+    box-shadow: 4px 4px 0px black;
+    cursor: pointer; 
+    font-family: "Koulen", sans-serif; 
+    color: black;
+    font-size: 10px; 
+    margin: 10px; 
+    font-size:small; 
+    margin-left: 37px;
+}
+
+.gamesDiv{
+    height: 60vh;
+    width: 100vw;
+    /* background-color: purple; */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    overflow-x: scroll;
+    position: relative;
+    z-index: 5;
+}
+.gamesScroll{
+    height: 100%;   
+    min-width: 150vw;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gameeDiv .Grade1
+{
+    position: fixed;
+    top: 20vh;
+    left: 2vh;
+    z-index: 10;
+}
