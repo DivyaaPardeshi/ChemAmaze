@@ -1,0 +1,132 @@
+.Current-container{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-heading{
+    height: 20vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: end;
+    justify-content: start;
+    font-size: 50px;
+    font-family: "Koulen", sans-serif; 
+    padding-left: 37px;
+}
+
+.forGames{
+    height: 70vh;
+    width: 100%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-half{
+    height: 100%;
+    width: 50%;
+    /* background-color: purple; */
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.right-half{
+    height: 100%;
+    width: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bigBox{
+    height: 65vh;
+    width: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FD7385;
+    border-radius: 20px;
+    box-shadow: 4px 4px 2px;
+    border: none;
+    gap: 0.2vw;
+    position: relative;
+}
+
+.rightUp{
+    height: 50%;
+    width: 100%;
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rightDown{
+    height: 50%;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightLeft{
+    height: 30vh;
+    width: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FD7385;
+    border-radius: 20px;
+    box-shadow: 4px 4px 2px;
+    border: none;
+    gap: 0.2vw;
+    position: relative;
+}
+
+.rightRight{
+    height: 30vh;
+    width: 22vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FD7385;
+    border-radius: 20px;
+    box-shadow: 4px 4px 2px;
+    border: none;
+    gap: 0.2vw;
+    position: relative;
+}
+
+.bottomRock{
+    height: 30vh;
+    width: 47vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FD7385;
+    border-radius: 20px;
+    box-shadow: 4px 4px 2px;
+    border: none;
+    gap: 0.2vw;
+    position: relative;
+}
+
+.game-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+

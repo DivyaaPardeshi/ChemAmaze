@@ -1,0 +1,60 @@
+.gamecards{
+    height: 70%;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    /* background-attachment: green; */
+    border: none;
+    border-radius: 3vh;
+    /* background-color: aqua; */
+    border: 1px solid black;
+    box-shadow: 4px 4px 0px black;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.game-image{
+    height:100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3vh;
+    position: absolute;
+}
+
+.game-image img{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3vh;
+}
+
+.game-name{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 3vh;
+    /* background-color: red; */
+    position: absolute;
+
+}
+
+.game-name h1{
+    height: 8vh;
+    width: 100%;
+    border-bottom-left-radius: 3vh;
+    border-bottom-right-radius: 3vh;
+
+
+    background-color: rgba(237, 237, 237, 0.459);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+}

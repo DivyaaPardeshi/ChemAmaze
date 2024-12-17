@@ -1,0 +1,85 @@
+.complete-about{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: green;     */
+}
+
+.about-title{
+    height:10vh;
+    width: 100%;
+    /* background-color: red;    */
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    font-family:"Koulen", sans-serif;
+    font-size: 4vw;
+    font-weight: 100;
+    color: #03045E;
+    padding-left: 150px;
+    display: flex;
+}
+
+.blank{
+    height: 14vh;
+    width: 100vw;
+    /* background-color: blue; */
+}
+
+.total{
+    height: 75vh;
+    width: 100%;
+    /* background-color: aliceblue; */
+}
+
+.up-about{
+    height: 50%;
+    width: 100%;
+    /* background-color: olive; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.down-about{
+    height: 50%;
+    width: 100%;
+    /* background-color: beige; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.curved{
+    height: 32vh;
+    width: 90vw;
+    background-color: pink;
+    border-radius: 20px;
+    display: flex;
+}
+
+.for-img{
+    height: 32vh;
+    width: 20vw;
+    /* background-color: purple; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.for-text{
+    height: 32vh;
+    width: 68vw;
+    /* background-color: aqua; */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.for-text p{
+    font-size: 18px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    padding: 20px;
+
+}
+
