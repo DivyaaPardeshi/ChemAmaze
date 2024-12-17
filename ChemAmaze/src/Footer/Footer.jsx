@@ -1,5 +1,5 @@
 import './Footer.css';
-import BASF from "../Pages/pageAssests/basf.png";
+import BASF from "../Pages/pageAssests/BASF.png";
 import PKC from "../Pages/pageAssests/PKC.png";
 import IIT from "../Pages/pageAssests/IIT.png";
 import Insta from "../Pages/pageAssests/Insta.png";
